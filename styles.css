@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    margin-top: 200px;
+    color:orangered
+}
+h4{
+    text-align:center;
+    font-family: 'Lucida Sans';
+    color:chartreuse
+}
+body{
+    background-color: black;
+}
