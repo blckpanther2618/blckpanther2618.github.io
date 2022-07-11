@@ -1,0 +1,29 @@
+
+body{
+    font-family: Electrolize;
+    font-size: xx-large;
+    background-image: linear-gradient(to right, #A9F1DF, #FFBBBB);
+}
+#d1{
+    width:200px;
+    height:200px;
+    margin-top:10%;
+    margin-left: 10%;
+}
+#b1
+{
+    border:none;
+    box-shadow: 10%;
+    font-size:x-large;
+    color:red;
+    width:300px;
+}
+#n1{
+    height: 100px;
+    align-items: center;
+    opacity: 70%;
+}
+#str1{
+    font-size: xx-large;
+    color: black;
+}
