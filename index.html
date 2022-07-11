@@ -3,37 +3,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Segment Display</title>
     <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <script src="script.js"></script>
 </head>
-<body onload="main()">                         
-    <div class="header">  
-        <!--Content before waves-->  
-        <div class="inner-header flex">  
-        <!--Just the logo.. Don't mind this-->  
-        <p id="p1" class="blue-neon"></p> 
-        </div>  
-        <!--Waves Container-->  
-        <div>  
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  
-        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">  
-        <defs>  
-        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />  
-        </defs>  
-        <g class="parallax">  
-        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />  
-        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" /> 
-        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />  
-        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />  
-        </g>  
-        </svg>  
-        </div>  
-        <!--Waves end-->  
-        </div>  
-        <!--Header ends-->  
-        <!--Content starts-->  
-        <!--Content ends-->      
+<body onload="main()" id="bod1">
+    <!-- <h1 style="color:whitesmoke; margin-top:100px;">7 SEGMENT DISPLAY</h1> -->
+    <div class="segment">
+        <div class="main1">
+            <div class="F">
+                <div id="f1" id="f1"></div>
+                <div id="f2"></div>
+                <div id="f3"></div>
+            </div>
+            <div class="E">
+                <div id="e1"></div>
+                <div id="e2"></div>
+                <div id="e3"></div>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="A">
+                <div id="a1"></div>
+                <div id="a2"></div>
+                <div id="a3"></div>
+            </div>
+            <div class="G">
+                <div id="g1"></div>
+                <div id="g2"></div>
+                <div id="g3"></div>
+            </div>
+            <div class="D">
+                <div id="d1"></div>
+                <div id="d2"></div>
+                <div id="d3"></div>
+            </div>
+        </div>
+        <div class="main3">
+            <div class="B">
+                <div id="b1"></div>
+                <div id="b2"></div>
+                <div id="b3"></div>
+            </div>
+            <div class="C">
+                <div id="c1"></div>
+                <div id="c2"></div>
+                <div id="c3"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
