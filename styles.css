@@ -25,7 +25,16 @@ body{
     color:red;
     width:300px;
     display: inline-block;  
-    margin-left:15px;
+    margin-left:90px;
+    border-radius: 2%;
+}
+#b3{
+    box-shadow: 10%;
+    font-size:x-large;
+    color:red;
+    width:300px;
+    display: inline-block;  
+    margin-left:90px;
     border-radius: 2%;
 }
 #n1{
