@@ -8,15 +8,25 @@ body{
     width:200px;
     height:200px;
     margin-top:10%;
-    margin-left: 10%;
+    margin-left: 10%;    
 }
 #b1
 {
-    border:none;
     box-shadow: 10%;
     font-size:x-large;
     color:red;
     width:300px;
+    display: inline-block;   
+    border-radius: 2%; 
+}
+#b2{
+    box-shadow: 10%;
+    font-size:x-large;
+    color:red;
+    width:300px;
+    display: inline-block;  
+    margin-left:15px;
+    border-radius: 2%;
 }
 #n1{
     height: 100px;
