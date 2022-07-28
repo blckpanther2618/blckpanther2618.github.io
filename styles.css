@@ -3,6 +3,10 @@ body{
     font-family: Electrolize;
     font-size: xx-large;
     background-image: linear-gradient(to right, #A9F1DF, #FFBBBB);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;    
 }
 #d1{
     width:200px;
