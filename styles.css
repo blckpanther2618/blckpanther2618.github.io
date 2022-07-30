@@ -8,6 +8,17 @@ body{
     background-position: center center;
     background-attachment: fixed;    
 }
+#sp2
+{
+    margin-left:-90px;
+}
+#con1
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 #d1{
     width:200px;
     height:200px;
