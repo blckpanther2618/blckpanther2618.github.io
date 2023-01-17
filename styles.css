@@ -1,8 +1,8 @@
 
 body{
-    font-family: beyno;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
     font-size: xx-large;
-    background-image: linear-gradient(to bottom, #C4A8FF, #1A0554);     
+    background-size: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -13,16 +13,15 @@ body{
     height:200px;
     width: 200px;
 }
-@font-face {
-    font-family: beyno;
-    src: url("BEYNO.ttf");
-}
 #con1
 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #d1{
     width:200px;
